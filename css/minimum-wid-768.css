@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+/*Header starts*/
+header{
+	text-align: left;
+}
+.navbar{
+	margin: 23px 0 0 0;
+	display: block;
+}
+header nav li{
+	text-align: center;
+	width: 20%;
+	float: left;
+}
+header .nav li a{
+	border: none;
+}
+.tinynav {display: none;}
+#sec-nav { display: block; }
+.links{
+	margin-top: 20px;
+}
+.links li{
+	margin-right: 0px;
+	margin-left: 14px;
+}
+/* Header ends */
+
+/*Article starts*/
+
+article>.well>.container .center>.nav{
+	height:40px;
+}
+article>.well>.container .center>.nav li{
+	display:inline-block;
+}
+
+
+}
